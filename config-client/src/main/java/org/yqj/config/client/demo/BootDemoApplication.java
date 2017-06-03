@@ -1,5 +1,6 @@
 package org.yqj.config.client.demo;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.http.MediaType;
@@ -24,9 +25,18 @@ public class BootDemoApplication {
                 .run(args);
     }
 
+    @Value("${foo}")
+    private String fooRemoteConfig;
+
     @RequestMapping(value = "/index", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public String indexPage(){
         return "this is test index paging info";
+    }
+
+    @RequestMapping(value = "/foo/config", method = RequestMethod.GET)
+    @ResponseBody
+    public String configDetail(){
+        return fooRemoteConfig;
     }
 }
