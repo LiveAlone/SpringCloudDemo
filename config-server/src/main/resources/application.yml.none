@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: config-server
+
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/LiveAlone/SpringCloudDemo.git
+          searchPaths: respos
+          username: yaoqijunmail@gmail.com
+          password: yao4094230
+      label: master
+
