@@ -1,4 +1,4 @@
-package org.yqj.config.server.demo;
+package org.yqj.eureka.client.demo;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

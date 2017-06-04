@@ -1,4 +1,4 @@
-package org.yqj.config.server.demo;
+package org.yqj.eureka.server.demo;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;

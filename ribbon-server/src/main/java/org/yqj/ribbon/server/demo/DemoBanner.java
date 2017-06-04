@@ -1,4 +1,4 @@
-package org.yqj.config.server.demo;
+package org.yqj.ribbon.server.demo;
 
 import org.springframework.boot.Banner;
 import org.springframework.boot.ansi.AnsiColor;
