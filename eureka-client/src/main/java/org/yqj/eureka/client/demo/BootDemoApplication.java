@@ -28,9 +28,12 @@ public class BootDemoApplication {
     @Value("${server.port}")
     private String port;
 
+    @Value("${spring.application.name}")
+    private String applicationName;
+
     @RequestMapping(value = "hi")
     public String home(@RequestParam String name){
-        return  "hi " + name + " i am from port: " + port;
+        return  "hi " + name + " i am from " +" application : " + applicationName + " port: " + port;
     }
 
 }
