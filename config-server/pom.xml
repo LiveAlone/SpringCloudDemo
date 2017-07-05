@@ -22,6 +22,7 @@
             <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
 
+        <!-- 通过 eureka 集群的方式配置中心 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
