@@ -17,6 +17,8 @@
     </properties>
 
     <modules>
+        <module>config-server-local</module>
+        <module>config-client-local</module>
         <module>config-server</module>
         <module>config-client</module>
         <module>eureka-server</module>
