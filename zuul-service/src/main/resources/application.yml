@@ -10,8 +10,8 @@ spring:
 zuul:
   routes:
     api-a:
-      path: /p2/**
-      serviceId: SERVICE-HI2
+      path: /v1/**
+      serviceId: SERVICE-HI-V1
     api-b:
-      path: /p3/**
-      serviceId: SERVICE-HI3
+      path: /v2/**
+      serviceId: SERVICE-HI-V2

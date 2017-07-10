@@ -1,4 +1,4 @@
-package org.yqj.hystrix.service.demo.service;
+package org.yqj.ribbon.server.demo;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -28,6 +28,10 @@
 
         <module>eureka-server-multi</module>
 
+        <module>sleuth-server</module>
+        <module>sleuth-client</module>
+        <module>sleuth-client-miya</module>
+
         <module>ribbon-server</module>
         <module>feign-service</module>
         <module>hystrix-service</module>
