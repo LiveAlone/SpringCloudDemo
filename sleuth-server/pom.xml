@@ -15,7 +15,6 @@
     </parent>
 
     <dependencies>
-
         <!-- zipkin -->
         <dependency>
             <groupId>io.zipkin.java</groupId>
